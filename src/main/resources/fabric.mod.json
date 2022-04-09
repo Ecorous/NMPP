@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nomorepainfulpearls",
+  "version": "${version}",
+  "name": "NMPP",
+  "description": "Stops ender pearls from being so painful",
+  "authors": [
+    "Exo"
+  ],
+  "contact": {
+    "repo": "https://github.com/ExoPlant/NMPP"
+  },
+  "license": "MIT",
+  "icon": "assets/nomorepainfulpearls/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.exoplant.nmpp.NoMorePainfulPearls"
+    ]
+  },
+  "mixins": [
+    "nomorepainfulpearls.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
